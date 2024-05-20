@@ -1,0 +1,5 @@
+![Screenshot 2024-04-28 170202](https://github.com/pamali-sapunika/Ghost-Hunt/assets/127830881/8057f12d-cf83-4b3d-9478-0f5085bff7a9)
+![Screenshot 2024-04-28 170435](https://github.com/pamali-sapunika/Ghost-Hunt/assets/127830881/8a8da001-7ec4-4903-9d16-6f7df4e6ff74)
+![eeeee](https://github.com/pamali-sapunika/Ghost-Hunt/assets/127830881/8e647de6-e64e-4eb5-b888-de860e124ab6)
+![tt](https://github.com/pamali-sapunika/Ghost-Hunt/assets/127830881/1cdcdffc-ee14-4216-ac5e-70af826643b0)
+![rrr](https://github.com/pamali-sapunika/Ghost-Hunt/assets/127830881/abc7ce73-b0ba-4186-b0ad-a87cd5e8326a)
