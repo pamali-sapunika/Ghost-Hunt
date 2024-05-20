@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#081f5c"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/topheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/backgame"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/luckestguy"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/highscore"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/luckestguy"
+            android:foregroundGravity="right"
+            android:gravity="right|end"
+            android:text="High Score : 0"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="288dp"
+        android:layout_height="307dp"
+        android:layout_marginBottom="20sp"
+        app:srcCompat="@drawable/maincat" />
+
+    <TextView
+        android:id="@+id/gametext"
+        android:layout_width="372dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/freeman"
+        android:gravity="center"
+        android:text="Fly higher into the sky overcoming halloween cats"
+        android:textColor="#f9e076"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Score 0"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/morningbtn"
+            android:layout_width="200dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="Go in morning"
+            android:textColor="#f9e076"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/nightbtn"
+            android:layout_width="200dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:text="Go in night time"
+            android:textColor="#710393"
+            android:textSize="24sp"
+            app:backgroundTint="#f9e076" />
+    </LinearLayout>
+
+</LinearLayout>
